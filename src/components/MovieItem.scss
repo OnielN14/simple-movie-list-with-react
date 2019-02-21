@@ -1,0 +1,20 @@
+.movie-item{
+    width: 100%;
+    position: relative;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    & > .image{
+        width: 100%;
+    }
+
+    & > .overview{
+        padding-left:8px;
+        padding-right:8px;
+
+        & > p{
+
+        }
+    }
+}
